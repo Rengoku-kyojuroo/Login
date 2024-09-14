@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("../New folder/s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    position: relative;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    min-width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 20px;
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+}
+
+.form div {
+    position: relative;
+}
+
+.log {
+    color: white;
+    margin-bottom: 30px;
+    top: -23px;
+    left: 39%;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: bold;
+    font-size: x-large;
+    width: 353px;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.us label, .ss {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: -32px;
+}
+
+.sh {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -33px;
+    left: -5%;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: transparent;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 330px;
+    font-size: x-large;
+    padding: 7px;
+    top: -22px;
+    cursor: pointer;
+    position: absolute;
+}
+
+a  {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 14%;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 248px;
+}
